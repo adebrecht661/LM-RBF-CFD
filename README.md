@@ -1,3 +1,7 @@
+#LM-RBF-CFD
+
+Hydrodynamics code using radial basis functions and Levenberg-Marquardt method
+
 1. A file named `problem.data` must exist in the run directory, of the format
    &ProblemData
    x_dim =                 ! Width in CU
