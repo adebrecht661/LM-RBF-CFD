@@ -1,4 +1,4 @@
-1. A file named problem.data must exist in the run directory, of the format
+1. A file named `problem.data` must exist in the run directory, of the format
    &ProblemData
    x_dim =                 ! Width in CU
    y_dim =                 ! Height in CU
@@ -8,7 +8,7 @@
    Re =                    ! Reynolds number of fluid
    /                       ! This line must be included
 
-2. A file name constants.data must exist in the run directory, of the format
+2. A file named `constants.data` must exist in the run directory, of the format
    &ConstantsData
    uleft = 1               ! x velocity of fluid at left boundary
    vleft = 0               ! y velocity of fluid at left boundary
@@ -16,9 +16,9 @@
    uwall = 0               ! velocity of wall
    /                       ! This line must be included
 
-3. A folder named out must exist in the run directory.
+3. A folder named `out` must exist in the run directory.
 
-4. A file named alpha.dat, containing an initial guess of the RBF decomposition coefficients, *may* exist in the run directory. If it exists, it must be of the format
+4. A file named `alpha.dat`, containing an initial guess of the RBF decomposition coefficients, *may* exist in the run directory. If it exists, it must be of the format
    4d-1
    5d1
    6d-2
