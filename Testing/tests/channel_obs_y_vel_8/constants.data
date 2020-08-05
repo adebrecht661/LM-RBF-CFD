@@ -1,0 +1,6 @@
+&ConstantsData
+uleft = 1               ! x velocity of fluid at left boundary
+vleft = 1               ! y velocity of fluid at left boundary
+pleft = 0               ! pressure of fluid at left boundary
+uwall = 0               ! velocity of wall
+/

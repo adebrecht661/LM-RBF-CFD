@@ -1,0 +1,6 @@
+ The relative error between the estimated solution and the solution is at most   0.10000000000000001      .
+ The resolution of this run was           10  points/CU. Couette flow boundary conditions were used.
+ 
+real	2m42.175s
+user	16m50.140s
+sys	0m0.816s

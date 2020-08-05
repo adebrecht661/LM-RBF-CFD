@@ -1,0 +1,6 @@
+ The relative error between the estimated solution and the solution is at most   0.10000000000000001      .
+ The resolution of this run was           10  points/CU. Channel flow boundary conditions were used.
+ 
+real	1m50.276s
+user	11m41.228s
+sys	0m0.688s

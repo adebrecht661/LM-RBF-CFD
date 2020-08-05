@@ -1,0 +1,7 @@
+ The relative error between the estimated solution and the solution is at most    1.0000000000000000E-003 .
+ The resolution of this run was           10  points/CU. Channel flow boundary conditions with a central obstruction were used.
+ The Reynolds number of this run was    100.00000000000000      .
+ 
+real	3m26.914s
+user	18m57.284s
+sys	0m1.788s

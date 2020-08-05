@@ -1,0 +1,7 @@
+ The relative error in the sum of squares is at most    1.0000000000000000E-003 .
+ The resolution of this run was           10  points/CU. Channel flow boundary conditions with an obstruction were used.
+ The Reynolds number of this run was    100.00000000000000      .
+ 
+real	2m29.156s
+user	13m28.716s
+sys	0m1.624s

@@ -1,0 +1,8 @@
+&ProblemData
+x_dim = 3               ! Width in CU
+y_dim = 1               ! Height in CU
+res = 10                ! points/CU
+tol = 1d-1             ! Tolerance for LM solver
+Re = 100                  ! Reynolds number of fluid
+BC = 1                 ! Boundary conditions to use. [1] = Channel flow, [2] = Couette flow
+/

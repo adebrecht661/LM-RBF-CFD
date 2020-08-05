@@ -1,0 +1,52 @@
+&ProblemData
+!!!!!!!!!!!!!!!!!
+! Space options !
+!!!!!!!!!!!!!!!!!
+x_dim = 3               ! Width in CU
+y_dim = 1               ! Height in CU
+res = 10                ! points/CU
+
+!!!!!!!!!!!!!!!!!!!!
+! Fluid properties !
+!!!!!!!!!!!!!!!!!!!!
+Re = 100                ! Reynolds number of fluid
+
+!!!!!!!!!!!!!!!!!!!!!!!
+! Boundary Conditions !
+!!!!!!!!!!!!!!!!!!!!!!!
+BC = 1                  ! Boundary conditions to use. [1] = Channel flow, [2] = Couette flow, [3] = Channel flow with central obstruction, [4] = Channel flow with narrowing at center, [5] = Channel flow with circular obstruction
+cent_real = 1.5, 1.0    ! coordinates of center of circular obstruction (in CU)
+r2_real = 0.05          ! Square radius of circular obstruction (in CU)
+
+!!!!!!!!!!!!!!!!!!!
+! Boundary Values !
+!!!!!!!!!!!!!!!!!!!
+uleft = 1               ! x velocity of fluid at left boundary
+vleft = 0               ! y velocity of fluid at left boundary
+pleft = 1               ! pressure of fluid at left boundary
+
+uright = 1              ! x velocity of fluid at right boundary
+vright = 0              ! y velocity of fluid at right boundary
+pright = 1              ! pressure of fluid at right boundary
+
+uwall = 0               ! velocity of top wall
+
+right_outflow = F       ! use outflow conditions on right boundary
+right_set = T           ! use conditions set above on right boundary
+
+!!!!!!!!!!!!!!!!
+! Random alpha !
+!!!!!!!!!!!!!!!!
+alpha_max = 200         ! Maximum random initial alpha
+alpha_min = -200        ! Minimum random initial alpha
+
+!!!!!!!!!!!!!
+! LM Solver !
+!!!!!!!!!!!!!
+tol = 1d-4              ! Tolerance for LM solver
+
+!!!!!!!!!!!!!!!
+! RBF options !
+!!!!!!!!!!!!!!!
+width = 1000              ! Gaussian width for shape parameter calculation
+/
